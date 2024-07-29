@@ -109,7 +109,7 @@ export const RecordAnswerSection = ({ interviewQuestions, activeQuestionIndex, s
             "Record Answer"
         }
       </Button>
-      <Button onClick={() => console.log(userAnswer, userAnswer.length)}>Show user answer</Button>
+      {/* <Button onClick={() => console.log(userAnswer, userAnswer.length)}>Show user answer</Button> */}
     </div>
   );
 }

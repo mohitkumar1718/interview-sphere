@@ -52,8 +52,8 @@ const Interview = ({ params }) => {
 							onUserMedia={() => setWebCamEnable(true)}
 							onUserMediaError={() => setWebCamEnable(false)}
 							style={{
-								height: 300,
-								width: 300,
+								height: 600,
+								width: 600,
 							}}
 						/>
 					) : (
